@@ -1,0 +1,93 @@
+:root {
+    --primary-color: #6c63ff;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+    --font-family: "Calibri";
+}
+
+body {
+    margin: 60px auto;
+    max-width: 700px;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    opacity: 0.7;
+    margin: 0;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    background: var(--secondary-color);
+    padding: 20px;
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 1.75;
+}
+
+.navigation-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.navigation-links a {
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.contact-me {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+}
+
+.about-me {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    font-size: 400;
+}
+
+.homepage {
+    color: var(--primary-color);
+    text-align: center;
+    display: block;
+}
+
+.paragraphs {
+    display: flex;
+    margin: 30px 0;
+}
+
+.email-me:a {
+    font-size: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.primary-link {
+    text-align: center;
+}
